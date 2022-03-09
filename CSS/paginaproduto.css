@@ -1,0 +1,403 @@
+body {
+  color: #5a5a5a;
+  overflow-x: hidden;
+}
+
+.botaoprocurar {
+  color: white;
+}
+a:link {
+  text-decoration: none;
+}
+
+.text-logo{
+  font-weight: 700;
+}
+/* botao contato */
+.botaocontato {
+  background-color: rgba(255, 255, 255, 0.11);
+  border: 1px solid white;
+  color: white;
+  width: 190px;
+  font-weight: 500;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3;
+}
+
+.botaocontato:hover {
+  color: white;
+  background-color: #2d2d2d;
+  transition: 0.3s;
+}
+/*botao contato final*/
+
+/*servico e preco*/
+
+
+
+.text-mine h1{
+  z-index: 6;
+font-family: Montserrat, sans-serif;
+height: auto;
+width: auto;
+color: rgb(255, 255, 255);
+font-weight: 700;
+font-size: 70px;
+}
+
+.name-mine{
+  font-size: 12.4px;
+  font-weight: 700;
+}
+
+.tag-mine{
+  font-size: 13px;
+}
+
+.text-price{
+  color: #3ed29c;
+  margin-bottom: 20px;
+  font-size: 16.7px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.text-seller{
+  text-align: center;
+  font-size: 38px;
+  margin-top: 70px;
+  /* font-family: Montserrat,Arial,Helvetica,sans-serif; */
+font-weight: 700;
+line-height: 1.26;
+letter-spacing: 0;
+font-style: normal;
+color: #2b2e32;
+}
+
+.text-seller-second{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+  /* font-family: Montserrat,Arial,Helvetica,sans-serif; */
+  font-weight: 300;
+line-height: 1.26;
+letter-spacing: 0;
+font-style: normal;
+color: #2b2e32;
+}
+
+.line1{
+  width: 270px;
+  height: 1;
+  background-color: black;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.marketing {
+  margin-top: 100px;
+}
+/*inicio servicos*/
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing h1 {
+  font-weight: 400;
+  font-family: "Scope One", serif;
+  color: black;
+}
+
+.marketing h5 {
+  font-family: "Scope One";
+  color: #7d7d7d;
+}
+.marketing h4 {
+  font-family: "Scope One";
+  margin-top: 8px;
+}
+.preco {
+  font-size: 22px;
+  font-family: "Scope One";
+  color: #ca3e47;
+}
+
+.bg-items{
+  background-color: rgb(255, 255, 255);
+  margin-top: 100px;
+  margin-bottom: 100px;
+  
+}
+
+.teste {
+  color: black;
+}
+
+.promocao {
+  color: #7d7d7d;
+}
+
+.parcela {
+  font-size: 18px;
+  color: #7d7d7d;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+/*final servico e preco*/
+.barradivisao-divider {
+  margin: 5rem 0;
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+.imagemservico {
+  width: 450px;
+  height: 450px;
+  background-color: #2d2d2d;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.img_tree_section{
+  width: 100%;
+}
+.primary_section{
+  margin-bottom: 150px;
+}
+
+.stars{
+  color: red;
+}
+
+.shop_text{
+  background-color: #2d2d2d;
+  border: 2px solid rgb(255, 255, 255);
+  color: white;
+  margin: 0 auto;
+  width: 190px;
+  margin-top: 40px;
+  padding: 10px;
+  /* border-radius: 30px; */
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.shop_text:hover{
+  background-color: black;
+  transition: 0.3s;
+}
+
+.shop_text_fonts{
+  background-color: #2d2d2d;
+  border: 2px solid rgb(255, 255, 255);
+  color: white;
+  width: 190px;
+  margin-top: 40px;
+  padding: 10px;
+  /* border-radius: 30px; */
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.shop_text_fonts:hover{
+  background-color: black;
+  transition: 0.3s;
+}
+
+.button_shopbar{
+  background-color: #2DBB87;
+  border-radius: 5px;
+  color: black;
+  margin: 0 auto;
+  width: 140px;
+
+  /* border-radius: 30px; */
+  text-align: center;
+  font-weight: 600;
+}
+.second_section{
+  margin-bottom: 200px;
+}
+
+.col-lg-3{
+  margin-top: 20px;
+}
+
+@media(max-width:1000px){
+  .second_section{
+    text-align: center;
+  }
+  .shop_text_fonts{
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .text-mine h1{
+    font-size: 40px;
+  }
+  .featurette-heading{
+    font-size: 15px;
+  }
+
+  .image-banner{
+    width: 300px;
+  }
+}
+.four-section{
+  background-color: #F4F8F9;
+  padding-bottom: 40px;
+}
+
+.section_footer{
+  background-color: #2B2E32;
+  color: white;
+}
+
+.footer-text-email{
+  color: #d3d3d3;
+  font-weight: 600;
+  font-size: 14px;
+}
+.copy{
+  color: #eaeaea;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+/*botoes rede social*/
+.social-media {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid;
+  margin: 0 25px;
+  position: relative;
+  transition: all 0.3s;
+  overflow: hidden;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0, 15);
+}
+.social-media img {
+  width: 23px;
+  height: 23px;
+}
+
+.social-media i {
+  font-size: 40px;
+  transition: all 0.3s;
+  color: #fff;
+}
+
+.social-media span {
+  position: absolute;
+  transform: translateY(-100px);
+  text-transform: uppercase;
+  font-family: "Raleway";
+  transition: all 0.3s;
+}
+
+.social-media:nth-child(1) {
+  border-color: #337c7e;
+  background-color: #3d3d3d;
+}
+
+.social-media:nth-child(2) {
+  border-color: #337c7e;
+  background-color: #3d3d3d;
+}
+
+.social-media:nth-child(3) {
+  border-color: #337c7e;
+  background-color: #3d3d3d;
+}
+
+.social-media:hover {
+  border-radius: 0px;
+  padding: 16px 60px;
+  background-color: var(--verde);
+}
+
+@media (max-width: 1000px) {
+  .social-media:hover {
+    border-radius: 30px;
+    padding: 16px 50px;
+    background-color: var(--verde);
+  }
+}
+.social-media:hover i {
+  transform: translateY(100px);
+}
+
+.social-media:hover span {
+  transform: translateY(0);
+}
+
+.social-media:nth-child(1):hover span {
+  color: #000;
+  font-size: 15px;
+}
+.social-media:nth-child(1):hover img {
+  opacity: 0;
+}
+
+.social-media:nth-child(2):hover span {
+  color: #000;
+  font-size: 15px;
+}
+.social-media:nth-child(2):hover img {
+  opacity: 0;
+}
+
+.social-media:nth-child(3):hover span {
+  color: #000;
+  font-size: 15px;
+}
+.social-media:nth-child(3):hover img {
+  opacity: 0;
+}
+/*final botoes redes sociais*/
+
+.text-payment{
+  font-weight: 700;
+}
+.img-usdt{
+  width: 50px;
+  height: 50px;
+}
+.img-bitcoin{
+  width: 85px;
+  height: 50px;
+  /* margin-left: 20px; */
+}
+.div-bitcoin{
+  margin-left: 25px;
+}
+@media (max-width: 720px) {
+  .imagemservico {
+    width: 500px;
+    height: 250px;
+  }
+}
+
+.imgpropaganda {
+  width: 200px;
+  height: 200px;
+  background-color: #c4c4c4;
+  border-radius: 10px;
+}
